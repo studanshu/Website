@@ -1,0 +1,69 @@
+/*navbar*/
+.navbar {
+	transition-duration: 0.4s;
+}
+.navbar-nav > .active>a {
+	background-color: #4EB1BA;
+}
+
+/*Social Icons*/
+.icon {
+	opacity: .4;color: #000
+}
+.icon:hover {
+	opacity: .8;color: #000
+}
+.tooltip-inner {
+	background: #333;color: #fff;opacity: .9
+}
+
+/*DP*/
+#dp {
+	border-radius: 50%;
+	background-color: #fff;
+	width: 300px;
+	height: 300px;
+	background: url('https://scontent.fdel1-2.fna.fbcdn.net/hphotos-xaf1/v/t1.0-9/11203058_10153293895167661_6605659179168400133_n.jpg?oh=b2b599ed07fa5dd929977da53b398d5a&oe=5772F5E0');
+	background-size: cover;
+	border:8px solid #4EB1BA;
+}
+
+
+/*Accordion*/
+#accordion  h4 {
+	background-color: rgba(0,0,0,0.1);
+	margin:4px 0px;
+	padding:5px 12px;
+}
+#accordion  div {
+	background-color: rgba(0,0,0,0.05);
+	padding: 5px;
+}
+#accordion ul {
+	margin:0px;
+}
+
+p {
+	font-size: 18px;
+}
+
+/*Sticky nav bar*/
+#navid.sticky {
+	border-bottom: #4EB1BA solid 8px;
+}
+
+#navid.initial {
+	padding: 20px;
+	font-size: 150%
+}
+
+#navbrand {
+	transition-duration: 1s;
+	opacity: 0;
+}
+#courseslist li {
+	background: #eeeeee;
+	border-radius: 3px;
+	margin: 4px;
+	padding: 5px 10px;
+}
